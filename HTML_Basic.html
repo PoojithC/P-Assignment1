@@ -1,0 +1,67 @@
+﻿<html>
+    <head>
+        <title>Table</title>
+	<meta charset="UTF-8">
+        	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <table border="2px">
+            <tr>
+                <th>Form Below</th>
+                <th>Image and List</th>
+            </tr>
+            <tr>
+                <td>
+                    <form>
+                        First Name:<input type="text" name="First Name" placeholder="Your Name"><br>
+                        Last Name:<input type="text" name="Last Name" placeholder="Surname"><br>
+                        <textarea placeholder="lets put something as default value"></textarea><br>
+                        <b>Please select your gender</b><br>
+                        Male: <input type="radio" name="gender" value="male"><br>
+                        Female: <input type="radio" name="gender" value="female"><br>
+                        Other: <input type="radio" name="gender" value="other"><br>
+                        <fieldset>
+                            <legend>Lemme group your person preferences separately</legend>
+                            <b>I want to know your hobbies</b><br>
+                            Travelling <input type="checkbox" name="hobbies" value="travelling">
+                            Partying <input type="checkbox" name="hobbies" value="partying">
+                            Reading <input type="checkbox" name="hobbies" value="reading"><br>
+                            <b>Lets know your current expression</b><br>
+                            <select name="expression">
+                                <option value="smile">Smile</option>
+                                <option value="anxiety">Anxiety</option>
+                                <option value="angry">Angry</option>
+                                <option value="surprise">Surprise</option>
+                            </select>
+                        </fieldset>
+                        <input type="submit" Value="mySubmit">
+                    </form>
+                </td>
+                <td>
+                    <p>
+                        <img src="C:\Users\Vejella\Documents\NetBeansProjects\UIUX\Images\1.jpg" alt="image1" height="100" width="80"/>
+                    </p>
+                    <i style="background-color:orangered;color:white">see the list of languages and frameworks as their sub categories</i><br>
+                    <i>Frameworks also have categories</i>
+                    <ul>
+                        <li>PHP</li>
+                        <ul><li>YII Framework</li></ul>
+                        <li>Javascript</li>
+                        <ul>
+                            <li>AngularJs</li>
+                            <li>BackboneJs</li>
+                            <ul>
+                                <li>MarionetteJs</li>
+                                <li>Thorax</li>
+                            </ul>
+                        </ul>
+                        <li>Python</li>
+                        <ul>
+                            <li>Django</li>
+                        </ul>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
